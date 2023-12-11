@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .galeria {
+            display: flex;
+            flex-direction: column;
+            /* Altera a direção do eixo principal para coluna */
+            text-align: center;
+            height: 200px;
+            margin: 10px;
+            /*flex-wrap: wrap;*/
+        }
+
+        .foto img{
+            margin: 20px;
+            height: 200px;
+            /* Garante que a largura da photo seja 100% */
+        }
+    </style>
+    <title>Flexbox Gallery</title>
+</head>
+
+<body>
+    <div class="galeria">
+        <div class="foto">
+            <h3>Título da Imagem 1</h3>
+            <img src="./algodão-pluma-lavoura.jpg" alt="Descrição da imagem 1">
+           
+                <p>Descrição da imagem 1</p>
+            
+        </div>
+        <div class="foto">
+            <h3>Título da Imagem 2</h3>
+            <img src="./algodão-pluma-lavoura.jpg" alt="Descrição da imagem 2">
+        
+                <p>Descrição da imagem 2</p>
+            
+        </div>
+        <!-- Adicione mais divs .photo conforme necessário -->
+    </div>
+</body>
+
+</html>
